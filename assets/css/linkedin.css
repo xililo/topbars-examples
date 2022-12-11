@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(234, 234, 234);
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 5px 5px 8px rgba(34, 34, 34, 0.5);
+    height: 52px;
+    padding: 0px 25px;
+}
+/* FOR VERTICAL: align-items, FOR HORIZONTAL: justify-content*/
+.first, .second {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+.search-input {
+    font-size: 18px;
+    background-color: rgba(192, 205, 207, 0.3);
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 40px;
+    padding-right: 10px;
+   
+
+}
+.search-input:focus {
+    outline: none;
+}
+.search-icon {
+    position: relative;
+    left: 35px;
+    color: rgb(131, 131, 131);
+}
+.icn {
+    font-size: 23px;
+    margin: 1px 20px;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.icn:hover {
+    color: rgb(11, 116, 196);
+    
+}
+.badge {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+    font-weight: 700;
+}
+.notice {
+    margin-right: 0px;
+}
+.bd {
+    border-left: 1px solid rgba(146, 146, 146, 0.762);
+    margin-left: -5px;
+    padding-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.or-parent{
+    text-align: center;
+}
+.line {
+    border-bottom: 1px solid black;
+}
+.or {
+    position: relative;
+    bottom: 25px;
+    background-color: rgb(234, 234, 234);
+    padding: 5px 5px;
+}
