@@ -33,3 +33,55 @@ body {
     height: 40px;
     border-radius: 50%;
 }
+.logo-small {
+    display: none;
+}
+.open-btn {
+    color: rgb(69, 161, 69);
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: ubuntu;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .topbar {
+        height: 56px;
+    }
+    .logo-large {
+        display: none;
+    }
+    .logo-small{
+        display: block;
+    }
+    .icn-large {
+        display: none;
+    }
+    .open-btn {
+        display: block;
+    }
+} 
+
+/* 
+FOR PRACTICE PURPOSE: MEDTHOD 2
+
+.topbar-mobile {
+    background-color: white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    justify-content: space-between;
+    
+    
+}
+.mobile-1, .mobile-2, .mobile-3 {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 767px) {
+    .topbar-mobile {
+        display: flex;
+    }
+    .topbar {
+        display: none;
+    }
+} */
