@@ -23,13 +23,11 @@ body{
     font-size: 18px;
     background-color: rgba(192, 205, 207, 0.3);
     height: 30px;
-    width: 300px;
+    width: 280px;
     border-radius: 5px;
     border-style: none;
     padding-left: 40px;
     padding-right: 10px;
-   
-
 }
 .search-input:focus {
     outline: none;
@@ -82,4 +80,28 @@ body{
     bottom: 25px;
     background-color: rgb(234, 234, 234);
     padding: 5px 5px;
+}
+.topnav-mobile {
+    background-color: white;
+    box-shadow: 5px 5px 8px rgba(34, 34, 34, 0.5);
+    display: none;
+    justify-content: space-between;
+    height: 48px;
+}
+.profile-pic {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.mobile-nav {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 767px){
+    .topnav-mobile {
+        display: flex;
+    }
+    .topnav{
+        display: none;
+    }
 }
